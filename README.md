@@ -47,4 +47,10 @@ Campos:
 
   - Via Docker: docker run --rm -v $(pwd):/app challenge-bem-agro caminho/para/imagem.tif 
 
+## Melhorias:
+ - Melhorar a metodologia de detecção, podendo implementar tecnologia de tratamento de imagem (CNNs, filtros, etc) para facilitar a detecçao das árvores. 
+
+ - Métodos para detecção de sombras e mudança de cores (relacionado ao tópico anterior)
+ 
+ - Para informações sobre a homogeneidade do plantio, métricas da distância dos centróides e tamanho das 'manchas' poderiam fornecer este tipo de dado, porém pode conter ruido por falhas do método de detecção, sendo secundários para a implementação neste momento. 
 
