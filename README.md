@@ -26,10 +26,10 @@ geometrias georreferenciadas e estatísticas descritivas da área analisada.
 
 ## Saídas
 
-### GeoJSON ('eucaliptos.geojson')
+### GeoJSON ('*_eucaliptos.geojson')
 Contém pontos georreferenciados representando as mudas identificadas.
 
-### JSON ('statics.json')
+### JSON ('*_statics.json')
 Arquivo JSON com métricas da detecção.
 
 Campos:
@@ -44,6 +44,7 @@ crs: sistema de referência espacial
 
 ## Execução:
 Via Python: python main.py caminho/para/imagem.tif
+
 Via Docker: docker run --rm -v $(pwd):/app challenge-bem-agro caminho/para/imagem.tif 
 
 
